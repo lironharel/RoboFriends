@@ -27,7 +27,7 @@ class App extends React.Component {
     })
 
     return (
-      <div className='tc'>
+      <div className='tc' style={{height: "100vh"}}>
         <h1 className="">RoboFriends</h1>
         <SearchBox updateSearchFilter={this.updateSearchFilter}/>
         <CardList robots={filteredRobots}/>
