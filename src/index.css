@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, rgba(0,82,76,1) 7%, rgba(13,78,98,1) 100%);
 }
 
 code {
@@ -12,6 +13,6 @@ code {
     monospace;
 }
 
-input:focus-visible {
+/* input:focus-visible {
   outline: #306996 auto 1px !important;
-  outline-offset: -1px;}
+  outline-offset: -1px;} */
